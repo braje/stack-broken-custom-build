@@ -1,0 +1,16 @@
+name:                custom-build
+version:             0.0.1
+synopsis:            Can't use superdoc
+homepage:            https://github.com/braje/broken-custom-build
+license:             BSD
+author:              Timothy Brjae
+maintainer:          tim.braje@gmail.com
+copyright:           Copyright (c) 2016 Timothy Braje
+category:            Example
+build-type:          Custom
+cabal-version:       >=1.8
+
+library
+  exposed-modules:     Lib
+  build-depends:       base >= 4.6 && < 5
+                     , superdoc >=0.1
